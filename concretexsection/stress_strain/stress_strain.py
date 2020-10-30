@@ -247,7 +247,7 @@ def plastic_center(bars_x=[1], bars_y=[1], fy=60000, As=[0.31], fc=3000, conc_ar
 
     pc = [xp,yp]
 
-    print cb_mx
-    print cb_my
-    print pc
+    print (cb_mx)
+    print (cb_my)
+    print (pc)
     return pc,[fc,cc,cc_mx,cc_my,cb,cb_mx,cb_my,C,C_mx,C_my]
